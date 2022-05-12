@@ -85,7 +85,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px 175px 50px 175px;;
+    padding: 50px 150px 100px 150px;
     gap: 50px;
 }
 
@@ -121,4 +121,35 @@ ul {
     flex: 0 0 auto;
     width: 150px;
     text-align: center;
+}
+
+.main-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 175px 100px 175px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    width: 800px;
+    height: 300px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.quote-body {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.attribution {
+    font-weight: bold;
+    font-size: 24px;
+    color: #1F2937;
+    text-align: right;
 }
