@@ -3,13 +3,15 @@ body {
     margin: 0px;
 }
 
-.header {
+.header, .main-one{
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
+    padding: 16px 175px;
+}
+
+.header {
+    justify-content: space-around;
     align-items: center;
-    color: #F9FAF8;
-    padding: 16px 150px;
 }
 
 ul {
@@ -21,10 +23,59 @@ ul {
 .h-logo {
     font-size: 24px;
     font-weight: bold;
+    color: #F9FAF8;
 }
 
 .right-links {
     font-size: 18px;
     display: flex;
     gap: 16px;
+    color: #e5e7eb;
+}
+
+.main-one {
+    padding-top: 100px;
+    gap: 50px;
+    padding-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.main-one-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.main-one-content button {
+    max-width: 125px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: bold;
+}
+
+.main-one-img {
+    display: flex;
+    width: 600px;
+    height: 250px;
+    background-color: rgb(118, 128, 138);
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
