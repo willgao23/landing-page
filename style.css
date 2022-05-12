@@ -60,8 +60,9 @@ ul {
     max-height: 400px;
 }
 
-.main-one-content button {
-    max-width: 125px;
+button {
+    width: 125px;
+    height: 40px;
     padding: 8px 16px;
     border-radius: 8px;
     background-color: #3882f6;
@@ -152,4 +153,28 @@ ul {
     font-size: 24px;
     color: #1F2937;
     text-align: right;
+}
+
+.main-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 175px 100px 175px;
+}
+
+.action {
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    padding: 50px 75px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    max-width: 900px;
+    flex: auto;
+}
+
+.action button {
+    flex: 0 0 auto;
+    border: 2px solid #e5e7eb;
 }
